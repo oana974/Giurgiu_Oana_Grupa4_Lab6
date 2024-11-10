@@ -1,0 +1,75 @@
+/* Resetarea stilurilor implicite pentru a avea un punct de plecare curat */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stilizarea generală a paginii */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Stiluri pentru imaginea de copertă */
+.cover-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cover-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+/* Stiluri pentru titlul catalogului */
+#catalog-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Listă de studenți */
+.student-list {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.student {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.student a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.student a:hover {
+    color: #2980b9;
+}
+
+/* Stiluri pentru logo-ul UTCN */
+.utcn-logo {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+}
+
+/* Stiluri pentru secțiuni */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
